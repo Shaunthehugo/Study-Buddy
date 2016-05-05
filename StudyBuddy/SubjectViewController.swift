@@ -131,9 +131,10 @@ class SubjectViewController: UIViewController, UITableViewDataSource, UITableVie
 					
 					room = results!.last! as PFObject
 					// Setup MessageViewController and Push to the MessageVC
-					conversationVC.room = room
-					conversationVC.incomingUser = user2 as! PFUser
-					self.navigationController?.pushViewController(conversationVC, animated: true)
+//					conversationVC.room = room
+//					conversationVC.incomingUser = user2 as! PFUser
+//					self.navigationController?.pushViewController(conversationVC, animated: true)
+					UIApplication.sharedApplication().endIgnoringInteractionEvents()
 					
 				} else { // create a new room
 					room["user1"] = user1

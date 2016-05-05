@@ -58,9 +58,7 @@ class ConversationViewController: JSQMessagesViewController {
 		super.viewDidAppear(animated)
 		
         UIApplication.sharedApplication().applicationIconBadgeNumber = UIApplication.sharedApplication().applicationIconBadgeNumber - UIApplication.sharedApplication().applicationIconBadgeNumber
-        
 		NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ConversationViewController.loadMessages), name: "reloadTimeline", object: nil)
-//		loadMessages()
 	}
 	
     //MARK: Get messages
@@ -76,7 +74,7 @@ class ConversationViewController: JSQMessagesViewController {
 		messageQuery.orderByAscending("createdAt")
 		messageQuery.limit = 500
 		messageQuery.includeKey("user")
-		messageQuery.cachePolicy = .CacheThenNetwork
+		messageQuery.cachePolicy = .NetworkElseCache
 		
 		if lastMessage != nil {
 			messageQuery.whereKey("createdAt", greaterThan: lastMessage!.date)
@@ -109,11 +107,7 @@ class ConversationViewController: JSQMessagesViewController {
 		
 		messageQuery.findObjectsInBackgroundWithBlock { (results: [PFObject]?, error: NSError?) -> Void in
 			if error == nil {
-				let messages = results as [PFObject]!
-				
-				PFObject.pinAllInBackground(results!)
-				
-				for message in messages {
+				for message in results! {
                     self.messageObjects.append(message)
 					
                     let user = message["user"] as! PFUser
@@ -121,7 +115,7 @@ class ConversationViewController: JSQMessagesViewController {
                     
                     let chatMessage = JSQMessage(senderId: user.objectId, senderDisplayName: "\(user["firstName"])" + " \(user["lastName"])", date: message.createdAt, text: message["content"] as! String)
                     self.messages.append(chatMessage)
-                    
+					
                     if results!.count  != 0 {
                         self.finishReceivingMessageAnimated(true)
                     }
@@ -171,10 +165,10 @@ class ConversationViewController: JSQMessagesViewController {
 		
 		let message = messages[indexPath.row]
         
-        cell.textView!.selectable = false
+        cell.textView!.selectable = true
 		cell.textView!.editable = false
-		cell.textView!.dataDetectorTypes = UIDataDetectorTypes.All
-    
+		cell.textView.dataDetectorTypes = UIDataDetectorTypes.All
+		
 
 		if message.senderId == self.senderId {
 			cell.textView?.textColor = UIColor.whiteColor()

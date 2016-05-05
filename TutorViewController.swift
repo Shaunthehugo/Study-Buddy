@@ -133,7 +133,7 @@ class TutorViewController: UIViewController, UITableViewDelegate, UITableViewDat
 		roomQuery.includeKey("user1")
 		roomQuery.includeKey("user2")
 		roomQuery.orderByDescending("lastUpdate")
-		roomQuery.cachePolicy = .CacheThenNetwork
+		roomQuery.cachePolicy = .NetworkElseCache
 		
 		roomQuery.findObjectsInBackgroundWithBlock { (results: [PFObject]?, error: NSError?) -> Void in
 			if error == nil {

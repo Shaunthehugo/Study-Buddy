@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -82,7 +82,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="600" height="238"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="StudyBuddyLogo" translatesAutoresizingMaskIntoConstraints="NO" id="im4-Dk-I9z">
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="StudyBuddyLogo" translatesAutoresizingMaskIntoConstraints="NO" id="im4-Dk-I9z">
                                     <rect key="frame" x="8" y="21" width="584" height="195"/>
                                 </imageView>
                             </subviews>
@@ -497,19 +497,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="  Copyright (c) 2015 Shaun Dougherty. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E0d-H0-33e">
-                                <rect key="frame" x="20" y="492" width="560" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Shaun Dougherty. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E0d-H0-33e">
+                                <rect key="frame" x="20" y="529" width="560" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="gu7-7e-5m6"/>
+                                    <constraint firstAttribute="height" constant="21" id="d1g-Ai-AVQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoL-HD-c76">
-                                <rect key="frame" x="20" y="521" width="121" height="22"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoL-HD-c76">
+                                <rect key="frame" x="20" y="558" width="121" height="22"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="121" id="R2x-hH-caN"/>
+                                    <constraint firstAttribute="width" constant="121" id="izk-fn-QYY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                 <state key="normal" title="Assets by icons8">
@@ -519,24 +519,24 @@
                                     <action selector="iconsTapped:" destination="AGe-SO-WI3" eventType="touchUpInside" id="zOx-eq-dDb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="vk6-EQ-zZe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="vk6-EQ-zZe">
                                 <rect key="frame" x="150" y="150" width="300" height="300"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="sYG-e5-3kY"/>
+                                    <constraint firstAttribute="width" constant="300" id="hf0-Fb-T8Z"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="vk6-EQ-zZe" firstAttribute="top" secondItem="qvz-2O-ZyD" secondAttribute="bottom" constant="86" id="AaW-eK-QCA"/>
-                            <constraint firstItem="vk6-EQ-zZe" firstAttribute="centerY" secondItem="Uu5-BY-OO1" secondAttribute="centerY" id="C4e-iq-IiN"/>
-                            <constraint firstItem="eoL-HD-c76" firstAttribute="top" secondItem="E0d-H0-33e" secondAttribute="bottom" constant="8" symbolic="YES" id="Ncl-pj-4C4"/>
-                            <constraint firstItem="E0d-H0-33e" firstAttribute="top" secondItem="vk6-EQ-zZe" secondAttribute="bottom" constant="42" id="YZN-cP-YXX"/>
-                            <constraint firstItem="jp7-HH-IGv" firstAttribute="top" secondItem="eoL-HD-c76" secondAttribute="bottom" constant="8" id="Z8w-O8-vof"/>
-                            <constraint firstItem="E0d-H0-33e" firstAttribute="leading" secondItem="eoL-HD-c76" secondAttribute="leading" id="Zvo-me-511"/>
-                            <constraint firstItem="vk6-EQ-zZe" firstAttribute="centerX" secondItem="E0d-H0-33e" secondAttribute="centerX" id="oHN-hZ-OB9"/>
-                            <constraint firstItem="E0d-H0-33e" firstAttribute="leading" secondItem="Uu5-BY-OO1" secondAttribute="leadingMargin" id="wch-Rf-sXe"/>
-                            <constraint firstItem="E0d-H0-33e" firstAttribute="trailing" secondItem="Uu5-BY-OO1" secondAttribute="trailingMargin" id="yHz-le-Vhm"/>
+                            <constraint firstItem="vk6-EQ-zZe" firstAttribute="centerX" secondItem="E0d-H0-33e" secondAttribute="centerX" id="3MZ-vj-rrC"/>
+                            <constraint firstItem="E0d-H0-33e" firstAttribute="leading" secondItem="eoL-HD-c76" secondAttribute="leading" id="HkL-u5-L4g"/>
+                            <constraint firstItem="eoL-HD-c76" firstAttribute="top" secondItem="E0d-H0-33e" secondAttribute="bottom" constant="8" symbolic="YES" id="MGa-LE-DRF"/>
+                            <constraint firstItem="E0d-H0-33e" firstAttribute="leading" secondItem="Uu5-BY-OO1" secondAttribute="leadingMargin" id="MVl-y8-fYU"/>
+                            <constraint firstItem="vk6-EQ-zZe" firstAttribute="centerY" secondItem="Uu5-BY-OO1" secondAttribute="centerY" id="TBt-sF-Hwn"/>
+                            <constraint firstItem="E0d-H0-33e" firstAttribute="top" secondItem="vk6-EQ-zZe" secondAttribute="bottom" constant="79" id="Y1P-jw-PGZ"/>
+                            <constraint firstItem="E0d-H0-33e" firstAttribute="trailing" secondItem="Uu5-BY-OO1" secondAttribute="trailingMargin" id="e9C-CJ-wPr"/>
+                            <constraint firstItem="vk6-EQ-zZe" firstAttribute="top" secondItem="qvz-2O-ZyD" secondAttribute="bottom" constant="130" id="ki7-4q-7wZ"/>
+                            <constraint firstAttribute="bottom" secondItem="eoL-HD-c76" secondAttribute="bottom" constant="20" symbolic="YES" id="qQ1-UR-jZK"/>
                         </constraints>
                     </view>
                     <connections>
@@ -676,7 +676,7 @@ You agree that Shaun Dougherty may collect and use information gathered in any m
         <!--Messages-->
         <scene sceneID="CaQ-dm-fLa">
             <objects>
-                <viewController title="Messages" id="hA7-n5-6NU" customClass="TutorViewController" customModule="StudyBuddy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="messagesVC" title="Messages" id="hA7-n5-6NU" customClass="TutorViewController" customModule="StudyBuddy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jee-MD-TTP"/>
                         <viewControllerLayoutGuide type="bottom" id="EMb-DV-d4b"/>
