@@ -15,7 +15,6 @@ import DZNEmptyDataSet
 
 class TutorViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
     
-//    var activityIndicator: UIActivityIndicatorView!
 	var messageList = [PFObject]()
 	var userList = [PFUser]()
 	var messagePartner: PFUser!
