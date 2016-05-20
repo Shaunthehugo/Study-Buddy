@@ -12,8 +12,7 @@ This app was created to help tutors and students connect with each other and all
 These features will be implemented due to the recent shutdown of Parse
 
 - [x] Remove Parse API
-- [ ] Start Moving to 
-    ![Firebase](https://firebase.google.com/_static/975991ed10/images/firebase/lockup.png)
+- [ ] Start Moving to Firebase
 - [ ] Resubmit
 
 **Shaun Dougherty**
