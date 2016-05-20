@@ -33,21 +33,34 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>JSQSystemSoundPlayer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-StudyBuddy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>Timepiece.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -63,6 +76,11 @@
 			<true/>
 		</dict>
 		<key>2E67DE0159A36BD1ADF39E3C19949F25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4622E85AE240F133C978AA6E7397158D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -93,6 +111,11 @@
 			<true/>
 		</dict>
 		<key>FA8878248422855EE0136DE3E0E2D26F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDCE363D6CB8BF1E3C89354DF8A78C99</key>
 		<dict>
 			<key>primary</key>
 			<true/>

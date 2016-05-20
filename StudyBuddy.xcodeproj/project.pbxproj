@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A90B4796CAFE33871B870AB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69679E5E801997C6FCAD0D92 /* Pods.framework */; };
 		7206BF911C837B4300F05208 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7206BF901C837B4300F05208 /* IntroViewController.swift */; };
 		720AA02C1C71156E00D33769 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720AA02A1C71156E00D33769 /* Bolts.framework */; };
 		720AA02D1C71156E00D33769 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720AA02B1C71156E00D33769 /* Parse.framework */; };
@@ -74,7 +73,7 @@
 
 /* Begin PBXFileReference section */
 		21869748DCAB8A4923217AE0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		69679E5E801997C6FCAD0D92 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6602C98AAE27F5BD6E2233D0 /* Pods-StudyBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.release.xcconfig"; sourceTree = "<group>"; };
 		7206BF901C837B4300F05208 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		720AA02A1C71156E00D33769 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		720AA02B1C71156E00D33769 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
@@ -127,6 +126,7 @@
 		72F488D51C717F1E007E71BF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		72F488D71C718E4F007E71BF /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountViewController.swift; path = ../CreateAccountViewController.swift; sourceTree = "<group>"; };
 		B8BC98AA92AEF2ED2C8C0496 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CEA87DBEEA693BFE3D83A88A /* Pods-StudyBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +151,6 @@
 				726CA1EB1C76A4CF00DF6DCE /* ParseUI.framework in Frameworks */,
 				720AA03D1C7115F700D33769 /* QuartzCore.framework in Frameworks */,
 				726CA1E91C76A4CF00DF6DCE /* ParseFacebookUtils.framework in Frameworks */,
-				0A90B4796CAFE33871B870AB /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +265,6 @@
 				720AA0371C7115F700D33769 /* QuartzCore.framework */,
 				720AA0381C7115F700D33769 /* Security.framework */,
 				720AA0391C7115F700D33769 /* SystemConfiguration.framework */,
-				69679E5E801997C6FCAD0D92 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -276,6 +274,8 @@
 			children = (
 				B8BC98AA92AEF2ED2C8C0496 /* Pods.debug.xcconfig */,
 				21869748DCAB8A4923217AE0 /* Pods.release.xcconfig */,
+				CEA87DBEEA693BFE3D83A88A /* Pods-StudyBuddy.debug.xcconfig */,
+				6602C98AAE27F5BD6E2233D0 /* Pods-StudyBuddy.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -287,13 +287,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72B0F6391C70F21B002F1EF4 /* Build configuration list for PBXNativeTarget "StudyBuddy" */;
 			buildPhases = (
-				6D7EC677288BE148AABEE732 /* Check Pods Manifest.lock */,
+				6D7EC677288BE148AABEE732 /* 📦 Check Pods Manifest.lock */,
 				72B0F60D1C70F21B002F1EF4 /* Sources */,
 				72B0F60E1C70F21B002F1EF4 /* Frameworks */,
 				72B0F60F1C70F21B002F1EF4 /* Resources */,
 				72880BE71C7B27AA008FB997 /* ShellScript */,
-				3574CF7A66E988771EEAB9DB /* Embed Pods Frameworks */,
-				276871FFFEBAE99C6E17BC73 /* Copy Pods Resources */,
+				3574CF7A66E988771EEAB9DB /* 📦 Embed Pods Frameworks */,
+				276871FFFEBAE99C6E17BC73 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -423,44 +423,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		276871FFFEBAE99C6E17BC73 /* Copy Pods Resources */ = {
+		276871FFFEBAE99C6E17BC73 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3574CF7A66E988771EEAB9DB /* Embed Pods Frameworks */ = {
+		3574CF7A66E988771EEAB9DB /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6D7EC677288BE148AABEE732 /* Check Pods Manifest.lock */ = {
+		6D7EC677288BE148AABEE732 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -654,7 +654,7 @@
 		};
 		72B0F63A1C70F21B002F1EF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8BC98AA92AEF2ED2C8C0496 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = CEA87DBEEA693BFE3D83A88A /* Pods-StudyBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -686,7 +686,7 @@
 		};
 		72B0F63B1C70F21B002F1EF4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21869748DCAB8A4923217AE0 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 6602C98AAE27F5BD6E2233D0 /* Pods-StudyBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
