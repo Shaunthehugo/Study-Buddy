@@ -1,3 +1,2 @@
 language: objective-c
-xcode_project: StudyBuddy.xcodeproj # path to your xcodeproj folder
-xcode_scheme: StudyBuddy
+script: xctool -workspace StudyBuddy.xcworkspace -scheme StudyBuddy test
