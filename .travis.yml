@@ -1,3 +1,5 @@
 language: objective-c
-xcode_project: StudyBuddy.xcodeproj # path to your xcodeproj folder
-xcode_scheme: StudyBuddy
+before_install:
+    - brew update
+    - brew install xctool
+script: xctool -workspace StudyBuddy.xcworkspace -scheme StudyBuddy test
