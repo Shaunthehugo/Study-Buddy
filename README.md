@@ -1,6 +1,6 @@
 ![Study Buddy](https://github.com/Shaunthehugo/Study-Buddy/blob/master/StudyBuddyTitle.png)
 
-[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?maxAge=2592000?style=flat-square)]()  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000?style=flat-square)]()
+[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?style=flat-square)]()  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()  [![version](https://img.shields.io/badge/version-1.0-green.svg?style=flat-square)]()
 
 Tutoring App
 
