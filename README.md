@@ -1,8 +1,15 @@
-# StudyBuddy
-TutoringApp
+![Study Buddy](https://github.com/Shaunthehugo/Study-Buddy/blob/master/StudyBuddyTitle.png)
+Tutoring App
 
 This app was created to help tutors and students connect with each other and allow for students to have time for extra-curricular activities.
 
-This was also used as my senior project, and help me learn what real app development is like.
+**This was also used as my senior project, and help me learn what real app development is like.**
 
-Shaun Dougherty
+##Future Plans
+These features will be implemented due to the recent shutdown of Parse
+
+- [x] Remove Parse API
+- [ ] Start Moving to Firebase
+- [ ] Resubmit
+
+**Shaun Dougherty**
