@@ -1,2 +1,0 @@
-language: objective-c
-script: xctool -workspace StudyBuddy.xcworkspace -scheme StudyBuddy test
