@@ -1,3 +1,3 @@
 language: objective-c
 xcode_project: StudyBuddy.xcodeproj # path to your xcodeproj folder
-xcode_scheme: StudyBuddyTests
+xcode_scheme: StudyBuddy
