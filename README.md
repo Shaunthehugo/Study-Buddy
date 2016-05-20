@@ -1,4 +1,7 @@
 ![Study Buddy](https://github.com/Shaunthehugo/Study-Buddy/blob/master/StudyBuddyTitle.png)
+
+[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?maxAge=2592000?style=flat-square)]()  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000?style=flat-square)]()
+
 Tutoring App
 
 This app was created to help tutors and students connect with each other and allow for students to have time for extra-curricular activities.
