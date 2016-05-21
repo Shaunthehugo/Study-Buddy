@@ -7,4 +7,9 @@ target 'StudyBuddy' do
   pod 'EAIntroView', '~> 2.8.0'
   pod 'DZNEmptyDataSet'
   pod ‘Gecco'
+  pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'Firebase/AppIndexing'
+  pod 'Firebase/Database'
 end
