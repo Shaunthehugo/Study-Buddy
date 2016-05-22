@@ -6,9 +6,9 @@
 
 Master: [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?style=flat-square)]()
 
-DeleteParse: [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?style=flat-square)]()
+~~DeleteParse: [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?style=flat-square)]()~~
 
-AddingFirebase: [![CircleCI](https://img.shields.io/circleci/project/BrightFlair/PHP.Gt.svg?style=flat-square)]()
+~~AddingFirebase: [![CircleCI](https://img.shields.io/circleci/project/BrightFlair/PHP.Gt.svg?style=flat-square)]()~~
 
 
 #Tutoring App
