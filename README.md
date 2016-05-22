@@ -20,8 +20,9 @@ This app was created to help tutors and students connect with each other and all
 ##Future Plans
 These features will be implemented due to the recent shutdown of Parse
 
-- [x] Remove Parse API
-- [ ] Start Moving to Firebase
+- [ ] ~~Remove Parse API~~
+- [ ] ~~Start Moving to Firebase~~
+- [ ] Create Parse Server
 - [ ] Resubmit
 
 **Shaun Dougherty**
