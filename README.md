@@ -10,7 +10,8 @@ DeleteParse: [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?s
 
 AddingFirebase: [![CircleCI](https://img.shields.io/circleci/project/BrightFlair/PHP.Gt.svg?style=flat-square)]()
 
-Tutoring App
+
+#Tutoring App
 
 This app was created to help tutors and students connect with each other and allow for students to have time for extra-curricular activities.
 
