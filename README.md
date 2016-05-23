@@ -21,8 +21,8 @@ This app was created to help tutors and students connect with each other and all
 These features will be implemented due to the recent shutdown of Parse
 
 - [ ] ~~Remove Parse API~~
-- [ ] ~~Start Moving to Firebase~~
-- [ ] Create Parse Server
+- [ ] ~~Start Moving to Firebase~~ **Firebase was not customizable enough to meet Study Buddy's needs**
+- [ ] Create Parse Server **Can track progress [here](https://github.com/Shaunthehugo/Study-Buddy-Server)**
 - [ ] Resubmit
 
 **Shaun Dougherty**
