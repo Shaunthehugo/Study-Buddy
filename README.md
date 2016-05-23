@@ -2,7 +2,7 @@
 
 [![App Store](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/us/app/study-buddy-messaging-app/id1112312221?ls=1&mt=8)
 
-  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()  [![version](https://img.shields.io/badge/version-1.0-green.svg?style=flat-square)]()
+  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()  [![release](https://img.shields.io/badge/release-v1.0-green.svg?style=flat-square)]()
 
 Master: [![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?style=flat-square)]()
 
