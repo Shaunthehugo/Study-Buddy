@@ -24,9 +24,6 @@
 		7245F4811C7C100400820F2D /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7245F4801C7C100400820F2D /* ConversationViewController.swift */; };
 		7254E2AA1C76D965003EECFF /* TutorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254E2A91C76D965003EECFF /* TutorTableViewCell.swift */; };
 		7269BA661C7DF28D000E4745 /* SubjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269BA651C7DF28C000E4745 /* SubjectTableViewController.swift */; };
-		726CA1E81C76A4CF00DF6DCE /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726CA1E41C76A4CF00DF6DCE /* ParseCrashReporting.framework */; };
-		726CA1E91C76A4CF00DF6DCE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726CA1E51C76A4CF00DF6DCE /* ParseFacebookUtils.framework */; };
-		726CA1EA1C76A4CF00DF6DCE /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726CA1E61C76A4CF00DF6DCE /* ParseFacebookUtilsV4.framework */; };
 		726CA1EB1C76A4CF00DF6DCE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726CA1E71C76A4CF00DF6DCE /* ParseUI.framework */; };
 		726DB54F1C7A9D04007161BA /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726DB54E1C7A9D03007161BA /* SettingsTableViewController.swift */; };
 		726DB5531C7A9E31007161BA /* EULAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726DB5521C7A9E31007161BA /* EULAViewController.swift */; };
@@ -52,6 +49,7 @@
 		72EADB541CBAE0E1009F4C42 /* SettingsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EADB531CBAE0E1009F4C42 /* SettingsNavigationController.swift */; };
 		72F488D61C717F1E007E71BF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F488D51C717F1E007E71BF /* SignInViewController.swift */; };
 		72F488D81C718E4F007E71BF /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F488D71C718E4F007E71BF /* CreateAccountViewController.swift */; };
+		9B585378B6C8404AC2F05777 /* Pods_StudyBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4AE60302234D4EEA3E42E3 /* Pods_StudyBuddy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,9 +89,6 @@
 		7245F4801C7C100400820F2D /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		7254E2A91C76D965003EECFF /* TutorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorTableViewCell.swift; path = ../TutorTableViewCell.swift; sourceTree = "<group>"; };
 		7269BA651C7DF28C000E4745 /* SubjectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubjectTableViewController.swift; path = ../SubjectTableViewController.swift; sourceTree = "<group>"; };
-		726CA1E41C76A4CF00DF6DCE /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
-		726CA1E51C76A4CF00DF6DCE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		726CA1E61C76A4CF00DF6DCE /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		726CA1E71C76A4CF00DF6DCE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		726DB54E1C7A9D03007161BA /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		726DB5521C7A9E31007161BA /* EULAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EULAViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +120,7 @@
 		72EADB531CBAE0E1009F4C42 /* SettingsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNavigationController.swift; sourceTree = "<group>"; };
 		72F488D51C717F1E007E71BF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		72F488D71C718E4F007E71BF /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountViewController.swift; path = ../CreateAccountViewController.swift; sourceTree = "<group>"; };
+		AC4AE60302234D4EEA3E42E3 /* Pods_StudyBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BC98AA92AEF2ED2C8C0496 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CEA87DBEEA693BFE3D83A88A /* Pods-StudyBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,7 +132,6 @@
 			files = (
 				720AA03A1C7115F700D33769 /* CoreGraphics.framework in Frameworks */,
 				720AA02F1C71158200D33769 /* libsqlite3.0.tbd in Frameworks */,
-				726CA1EA1C76A4CF00DF6DCE /* ParseFacebookUtilsV4.framework in Frameworks */,
 				72880BEA1C7B27C8008FB997 /* Fabric.framework in Frameworks */,
 				720AA02D1C71156E00D33769 /* Parse.framework in Frameworks */,
 				720AA02C1C71156E00D33769 /* Bolts.framework in Frameworks */,
@@ -144,13 +139,12 @@
 				720AA03C1C7115F700D33769 /* MobileCoreServices.framework in Frameworks */,
 				72880BEB1C7B27C8008FB997 /* Crashlytics.framework in Frameworks */,
 				720AA03F1C7115F700D33769 /* SystemConfiguration.framework in Frameworks */,
-				726CA1E81C76A4CF00DF6DCE /* ParseCrashReporting.framework in Frameworks */,
 				720AA03E1C7115F700D33769 /* Security.framework in Frameworks */,
 				720AA0321C7115E000D33769 /* AudioToolbox.framework in Frameworks */,
 				720AA0331C7115E000D33769 /* CFNetwork.framework in Frameworks */,
 				726CA1EB1C76A4CF00DF6DCE /* ParseUI.framework in Frameworks */,
 				720AA03D1C7115F700D33769 /* QuartzCore.framework in Frameworks */,
-				726CA1E91C76A4CF00DF6DCE /* ParseFacebookUtils.framework in Frameworks */,
+				9B585378B6C8404AC2F05777 /* Pods_StudyBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +244,6 @@
 			children = (
 				72880BE81C7B27C8008FB997 /* Fabric.framework */,
 				72880BE91C7B27C8008FB997 /* Crashlytics.framework */,
-				726CA1E41C76A4CF00DF6DCE /* ParseCrashReporting.framework */,
-				726CA1E51C76A4CF00DF6DCE /* ParseFacebookUtils.framework */,
-				726CA1E61C76A4CF00DF6DCE /* ParseFacebookUtilsV4.framework */,
 				726CA1E71C76A4CF00DF6DCE /* ParseUI.framework */,
 				720AA02A1C71156E00D33769 /* Bolts.framework */,
 				720AA02B1C71156E00D33769 /* Parse.framework */,
@@ -265,6 +256,7 @@
 				720AA0371C7115F700D33769 /* QuartzCore.framework */,
 				720AA0381C7115F700D33769 /* Security.framework */,
 				720AA0391C7115F700D33769 /* SystemConfiguration.framework */,
+				AC4AE60302234D4EEA3E42E3 /* Pods_StudyBuddy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
