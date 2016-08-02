@@ -22,7 +22,7 @@ These features will be implemented due to the recent shutdown of Parse
 
 - [ ] ~~Remove Parse API~~
 - [ ] ~~Start Moving to Firebase~~ **Firebase was not customizable enough to meet Study Buddy's needs**
-- [ ] Create Parse Server **Can track progress [here](https://github.com/Shaunthehugo/Study-Buddy-Server)**
+- [x] Create Parse Server **Can track progress [here](https://github.com/Shaunthehugo/Study-Buddy-Server)**
 - [ ] Resubmit
 
 **Shaun Dougherty**
